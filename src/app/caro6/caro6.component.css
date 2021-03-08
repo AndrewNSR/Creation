@@ -1,0 +1,146 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 123px 0 79px;
+}
+
+.wrapper div {
+    flex-direction: column;
+    display: flex;
+    width: 75%;
+}
+
+.header{
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    margin: 0;
+    color: #131313;
+    line-height: 60px;
+}
+
+.hashtagText {
+    font-size: 13px;
+    color: #002bdc;
+    letter-spacing: .02em;
+    line-height: 22px;
+    font-weight: 900;
+}
+
+.one {
+    box-shadow: 0 19px 26px -12px rgb(36 38 46 / 35%);
+    border-radius: 24px;
+}
+
+h5 {
+    color: #151515;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -.02em;
+    line-height: 40px;
+    margin-top: 40px;
+    font-family: Obj2;
+}
+
+h4 {
+    font-size: 13px;
+    color: #002bdc;
+    letter-spacing: .02em;
+    line-height: 22px;
+    font-weight: 900;
+}
+
+.cola{
+    text-align: center;
+    padding-left: 21rem;
+}
+
+.cola h5{
+    margin-left: -7rem;
+}
+.cola h4{
+    margin-left: -9rem;
+}
+.cola .aabu{
+    margin-left: -12rem;
+}
+.cola .a{
+    margin-left: -7rem;
+}
+
+.abu {
+    display: flex;
+    align-items: center;
+}
+
+button{
+    height: 20px;
+    position: relative;
+    transition: all .1s;
+    letter-spacing: .01em;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #002bdc;
+    background: 0 0;
+    font-weight: 600;
+    font-family: Obj2;
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button:hover{
+
+    transform: scale(1.05);
+}
+
+.cola .abu{
+    justify-content: center;
+    margin-left: -9rem;
+    padding: 3rem 0; 
+}
+
+.aabu{
+    color: black;
+}
+
+.imgcol .abu{
+    padding: 3rem 0; 
+}
+
+.fab{
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    width: 20px;
+    height: 18px;
+    padding-left: 2px;
+    padding-top: 1px;
+}
+
+.mar {
+    padding-top: 3rem !important;
+}
+
+.toz{
+    position: relative;
+}
+
+.toz:after {
+    content: "";
+    position: absolute;
+    top: 90px;
+    left: -20px;
+    height: 279px;
+    width: 354px;
+    background: url(/assets/Squares.svg) no-repeat;
+    z-index: 1;
+}

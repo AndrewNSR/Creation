@@ -1,0 +1,128 @@
+.wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 160px;
+}
+
+.header {
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    margin: 0;
+    color: #131313;
+    line-height: 60px;
+}
+
+.hashtagText {
+    font-size: 13px !important;
+    color: #002bdc !important;
+    letter-spacing: .02em !important;
+    line-height: 22px !important;
+    font-weight: 900 !important;
+}
+
+.diwi{
+    width:50%
+}
+
+.imgcol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.row {
+display: flex;
+background: #f2f4fd;
+position: relative;
+justify-content: center;
+flex-direction: row-reverse;
+background: rgb(255, 255, 255);
+}
+
+.cola {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.imsh {
+    box-shadow: 0 8px 18px rgb(5 34 154 / 26%);
+    border-radius: 12px;
+    border-style: none;
+}
+
+
+
+.one {
+    font-size: 16px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.two {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 0px;
+    color: blue;
+}
+
+.difl{
+    display: flex;
+}
+
+p{
+    margin: 38px 0 40px;
+    font-size: 16px;
+    color: #7c87b2;
+    letter-spacing: -.01em;
+    line-height: 26px;
+    font-weight: 400;
+    width: 100%;
+    padding-left: 0px;
+}
+    
+.dibu {
+    min-width: 101px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    display: flex;
+    align-items: center;
+}
+
+button{
+    height: 20px;
+    position: relative;
+    transition: all .1s;
+    letter-spacing: .01em;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #002bdc;
+    background: 0 0;
+    font-weight: 600;
+    font-family: Obj2;
+    padding-left: 0px;
+}
+
+a:hover{
+    text-decoration: none;
+    transform: scale(1.05);
+}

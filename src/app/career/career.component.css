@@ -1,0 +1,100 @@
+.fadeIn {
+    animation: fadeIn;
+    animation-duration: .75s;
+}
+
+
+#sec{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carrerContainer {
+    width: 65%;
+    margin-top: 200px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: -.01em;
+    line-height: 56px;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+p {
+    max-width: 965px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #002bdc;
+    line-height: 45px;
+    background: url(/assets/mk.png) 0 -25px no-repeat;
+    background-size: 89px 120px;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    width: 65%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.aos-animate {
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
+}
+
+.lottieScrum[data-v-895a5122] {
+    width: 82px;
+    height: 85px;
+    position: relative;
+}
+
+h2{
+    margin-top: 30px;
+}
+
+section .container p{
+    max-width: 352px;
+    margin-right: 57px;
+    width: 352px;
+    font-size: 16px;
+    color: #7c87b2;
+    letter-spacing: -.01em;
+    line-height: 26px;
+    background: 0 0;
+}
+
+#con{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 6px 25px 0 rgb(0 43 220 / 20%);
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 89.5%;
+}
+
+.wsizInfo {
+    padding: 50px 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wsizLogo img {
+    width: 140px;
+    height: 50px;
+}
+
+.description p {
+    font-size: 19px;
+    line-height: 25px;
+    margin-left: 50px;
+}

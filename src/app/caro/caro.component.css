@@ -1,0 +1,89 @@
+.cola{
+    padding: 6rem;
+}
+
+button{
+    height: 45px;
+    width: 220px;
+    background-color: #002bdc;
+    border-radius: 22px;
+    color: #fff;
+    box-shadow: 0 5px 20px -4px rgb(5 34 155 / 50%);
+    border: none;
+    cursor: pointer;
+    transition: all .25s ease;
+    outline: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 45px;
+}
+
+button.primary:hover {
+    box-shadow: 0 5px 20px -4px #002bdc;
+}
+
+h1{
+    font-weight: 700;
+    font-size: xxx-large;
+    font-family: Obj2;
+    padding-left: inherit;
+}
+
+p{
+    max-width: 535px;
+    margin-bottom: 19px;
+    font-size: 20px;
+    color: #7c87b2;
+    letter-spacing: -.01em;
+    line-height: 26px;
+    font-weight: 400;
+    width: 100%;
+    padding-left: inherit;
+}
+
+
+
+::ng-deep .owl-theme .owl-dots .owl-dot:hover span {
+    background: blue;
+}
+
+ul {
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    list-style: none;
+    font-weight: 200;
+    font-size: 12px;
+    font-family: Obj2;
+    padding-left: inherit;
+}
+
+ul li {
+    list-style: none;
+    text-transform: uppercase;
+    margin-right: 20px;
+    opacity: 1;
+}
+
+ul li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #636363;
+    transition: all .25s ease-in-out;
+    font-weight: 500;
+}
+li a:hover {
+    opacity: 0.5;
+} 
+
+::ng-deep .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 10px;
+    display: grid;
+    position: absolute;
+    top: 35%;
+}
+
+.pad {
+    padding-left: inherit;
+
+}

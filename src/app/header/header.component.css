@@ -1,0 +1,63 @@
+.image_logo {
+    width: 260px;
+    height: 70px;
+    border: none;
+  }
+
+a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: large;
+    cursor: pointer;
+}
+
+li a:hover{
+    color: blue !important;
+    opacity: 0.7;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin-right: 0px;
+
+}
+
+
+.navbar{
+    position: fixed !important;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    z-index: 3;
+    
+}
+
+
+button {
+     
+    background: white;
+    color: blue;
+    border-radius: 0.5px;
+    border-color: blue;
+    height: 2.5rem;
+    border-radius: 1.5rem;
+  }
+#navbarMenu{
+    justify-content: center !important;
+    margin-right: -400px !important;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 5px 20px -4px rgb(5 34 155 / 30%);
+}
+
+::ng-deep.btn-secondary:hover {
+    color:blue !important;
+    background-color:white !important;
+    border-color: blue !important;
+}

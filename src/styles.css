@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Obj";
+    src: local("Obj"), url(./assets/fonts/Objectivity-Black.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "Obj2";
+    src: local("Obj2"), url(./assets/fonts/Objectivity-Bold.otf) format("truetype");
+}
