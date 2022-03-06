@@ -21,8 +21,8 @@
     font-weight: 900 !important;
 }
 
-.diwi{
-    width:50%
+.diwi {
+    width: 50%
 }
 
 .imgcol {
@@ -33,12 +33,12 @@
 }
 
 .row {
-display: flex;
-background: #f2f4fd;
-position: relative;
-justify-content: center;
-flex-direction: row-reverse;
-background: rgb(255, 255, 255);
+    display: flex;
+    background: #f2f4fd;
+    position: relative;
+    justify-content: center;
+    flex-direction: row-reverse;
+    background: rgb(255, 255, 255);
 }
 
 .cola {
@@ -55,8 +55,6 @@ background: rgb(255, 255, 255);
     border-radius: 12px;
     border-style: none;
 }
-
-
 
 .one {
     font-size: 16px;
@@ -77,11 +75,11 @@ background: rgb(255, 255, 255);
     color: blue;
 }
 
-.difl{
+.difl {
     display: flex;
 }
 
-p{
+p {
     margin: 38px 0 40px;
     font-size: 16px;
     color: #7c87b2;
@@ -91,7 +89,7 @@ p{
     width: 100%;
     padding-left: 0px;
 }
-    
+
 .dibu {
     min-width: 101px;
     cursor: pointer;
@@ -104,7 +102,7 @@ a {
     align-items: center;
 }
 
-button{
+button {
     height: 20px;
     position: relative;
     transition: all .1s;
@@ -122,7 +120,50 @@ button{
     padding-left: 0px;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
     transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+    .cola {
+        margin-left: 4rem;
+    }
+    .imsh {
+        display: none;
+    }
+    .imgcol {
+        display: block;
+    }
+    .diwi {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .imgcol img {
+        width: 290px;
+        height: 184px;
+    }
+    .imgcol {
+        display: block;
+        align-items: center;
+    }
+    .imsh {
+        display: none;
+    }
+    .diwi {
+        width: 100%;
+        text-align: center;
+    }
+    .header {
+        font-size: 30px;
+    }
+    .hashtagText {
+        font-size: 10px;
+        font-weight: 500 !important;
+    }
 }

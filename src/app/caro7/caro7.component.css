@@ -1,4 +1,4 @@
-section{
+section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,4 +57,24 @@ button {
 
 button:hover {
     box-shadow: 0 5px 20px -4px #002bdc;
+}
+
+@media screen and (max-width: 768px) {
+    section .container {
+        width: 100%;
+        margin: 0 10px 34px;
+    }
+    section {
+        display: grid;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    section .container {
+        width: 85%;
+        margin: 20px auto;
+    }
+    section {
+        display: grid;
+    }
 }

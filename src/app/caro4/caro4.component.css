@@ -1,18 +1,20 @@
+section {
+    width: 100%;
+}
+
 .imgcol {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 700px;
-    height: 445px;
 }
 
 .row {
-display: flex;
-background: #f2f4fd;
-position: relative;
-justify-content: center;
-flex-direction: row-reverse;
-background: rgb(242, 244, 253); 
+    display: flex;
+    background: #f2f4fd;
+    position: relative;
+    justify-content: center;
+    flex-direction: row-reverse;
+    background: rgb(242, 244, 253);
 }
 
 .cola {
@@ -40,7 +42,7 @@ h4 {
     font-weight: 500;
 }
 
-ul li{
+ul li {
     font-weight: 500;
 }
 
@@ -63,11 +65,11 @@ ul li{
     color: blue;
 }
 
-.difl{
+.difl {
     display: flex;
 }
 
-p{
+p {
     margin: 38px 0 40px;
     font-size: 16px;
     color: #7c87b2;
@@ -77,7 +79,7 @@ p{
     width: 100%;
     padding-left: 0px;
 }
-    
+
 .dibu {
     min-width: 101px;
     cursor: pointer;
@@ -90,7 +92,7 @@ a {
     align-items: center;
 }
 
-button{
+button {
     height: 20px;
     position: relative;
     transition: all .1s;
@@ -109,11 +111,43 @@ button{
     margin-bottom: 20px;
 }
 
-button img{
+button img {
     background-color: rgb(242, 244, 253);
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
     transform: scale(1.05);
+}
+
+.imgcol img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+    .cola {
+        margin-left: 4rem;
+    }
+    .imsh {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .imgcol img {
+        width: 290px;
+        height: 184px;
+    }
+    .imgcol {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    .imsh {
+        display: none;
+    }
 }

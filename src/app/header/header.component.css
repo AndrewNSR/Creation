@@ -2,9 +2,9 @@
     width: 260px;
     height: 70px;
     border: none;
-  }
+}
 
-a{
+a {
     margin-left: 10px;
     margin-right: 10px;
     text-decoration: none;
@@ -14,50 +14,210 @@ a{
     cursor: pointer;
 }
 
-li a:hover{
+li a:hover {
     color: blue !important;
     opacity: 0.7;
 }
 
-ul{
+ul {
     list-style: none;
     display: flex;
-    margin-right: 0px;
-
+    margin-right: 16rem;
 }
 
+ul li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
-.navbar{
+.navbar {
     position: fixed !important;
     width: 100%;
     background-color: rgb(255, 255, 255);
     display: flex;
     z-index: 3;
-    
 }
 
+.navbar-nav span {
+    margin: auto;
+}
+
+.navbar-nav2 {
+    display: none;
+}
+
+.lang {
+    padding-left: 1rem;
+}
 
 button {
-     
     background: white;
     color: blue;
     border-radius: 0.5px;
     border-color: blue;
     height: 2.5rem;
     border-radius: 1.5rem;
-  }
-#navbarMenu{
+}
+
+.btn2 {
+    display: none;
+}
+
+#navbarMenu {
     justify-content: center !important;
     margin-right: -400px !important;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
     box-shadow: 0 5px 20px -4px rgb(5 34 155 / 30%);
 }
 
 ::ng-deep.btn-secondary:hover {
-    color:blue !important;
-    background-color:white !important;
+    color: blue !important;
+    background-color: white !important;
     border-color: blue !important;
+}
+
+@media screen and (max-width: 1189px) {
+    .btn2 {
+        display: block;
+    }
+    nav .navbar-nav2 {
+        position: absolute;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 96px;
+        left: 0;
+        width: 100%;
+        height: 190vh;
+        padding: 0 25px;
+        background: #fff;
+        z-index: 2;
+        box-shadow: 0 5px 6px 0 #cbcede;
+    }
+    nav .navbar-nav {
+        display: none;
+    }
+    .hamIcon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 25px;
+        height: 18px;
+        cursor: pointer;
+    }
+    .hamIcon div {
+        background: #000;
+        width: 30px;
+        height: 2px;
+    }
+    .navbar-nav2 li {
+        width: 100%;
+        transition: all .25s ease-in-out;
+        margin-right: 0;
+        height: 60px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        padding-left: 5px;
+    }
+    button {
+        margin-bottom: 0;
+    }
+    .contactContainer {
+        width: 100%;
+        margin-left: 5px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .contactContainer .conInfo {
+        color: #636363;
+        text-transform: lowercase;
+    }
+    .contactContainer h5 {
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        color: #002bdc;
+        letter-spacing: -.02em;
+        line-height: 25px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    .conInfo a {
+        margin-left: 0px;
+        margin-right: 20px;
+        color: #636363;
+        opacity: 0.7;
+        font-weight: 500;
+    }
+    .arrowIcon {
+        display: block;
+        width: 25px;
+        height: 30px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .image_logo {
+        width: 130px;
+        height: 70px;
+        border: none;
+    }
+    .navbar-nav2 {
+        background: #fff;
+        z-index: 3;
+        top: 64px;
+        display: block;
+        padding: 0 15px;
+    }
+    .navbar-nav2 li {
+        width: 100%;
+        margin-right: 0;
+        padding: 0;
+        height: 45px;
+        padding-left: 31px;
+    }
+    .contactContainer h5 {
+        margin-right: 25px;
+        margin-left: 20px;
+    }
+    .contactContainer {
+        width: 100%;
+        margin-left: 35px;
+        display: grid;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .arrowIcon {
+        height: 14px;
+        width: 20px;
+    }
+    span.lang {
+        margin-left: 30px;
+        margin-top: 10px;
+        display: block;
+    }
+    .collapse:not(.show) {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .collapse:not(.show) {
+        display: block;
+    }
+    .contactContainer {
+        width: 100%;
+        margin-left: 25px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
 }

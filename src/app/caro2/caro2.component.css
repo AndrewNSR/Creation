@@ -1,4 +1,4 @@
-.content-container{
+.content-container {
     padding-top: 15rem;
     background: rgb(242, 244, 253);
     position: relative;
@@ -38,9 +38,8 @@
     align-items: center;
     justify-content: center;
     position: relative;
-
-  
 }
+
 img {
     height: 120px;
     width: 120px;
@@ -57,18 +56,18 @@ h5 {
     text-align: center;
     font-weight: 700;
     color: rgb(124, 135, 178);
-    font-size:x-large;
+    font-size: x-large;
     margin-top: 100px;
 }
 
-h3{
+h3 {
     text-align: center;
     color: blue;
     font-size: large;
     padding-bottom: 4rem;
 }
 
-p{
+p {
     font-size: 20px;
     color: #7c87b2;
     letter-spacing: -.01em;
@@ -78,21 +77,23 @@ p{
 }
 
 .swiper-slide {
-     overflow:visible !important;
-     position: relative;
+    overflow: visible !important;
+    position: relative;
 }
 
-::ng-deep .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+::ng-deep .swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
     right: 27rem !important;
     left: auto;
 }
 
-::ng-deep .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+::ng-deep .swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
     left: 27rem !important;
     right: auto;
 }
 
-::ng-deep .swiper-container.swiper-container-horizontal .swiper-button-prev{
+::ng-deep .swiper-container.swiper-container-horizontal .swiper-button-prev {
     background: url(/assets/Arrow_left.svg) no-repeat 100%;
     opacity: .25;
     width: 35px;
@@ -104,7 +105,7 @@ p{
     transform: translateX(0);
 }
 
-::ng-deep .swiper-container.swiper-container-horizontal .swiper-button-next{
+::ng-deep .swiper-container.swiper-container-horizontal .swiper-button-next {
     background: url(/assets/Arrow_right.svg) no-repeat 100%;
     opacity: .25;
     width: 35px;
@@ -155,8 +156,16 @@ p{
     position: absolute;
     height: 89px;
     width: 120px;
-    background: url(/assets/images/Speach.svg) no-repeat;
+    background: url(/assets/Speach.svg) no-repeat;
     background-size: 100px 100px;
     top: 130px;
     left: 45px;
+}
+
+@media screen and (max-width: 1440px) {
+    .swiper-slide {
+        width: 96%;
+        padding: 15px;
+        margin: 20px 0px 100px;
+    }
 }

@@ -4,15 +4,16 @@
     justify-content: center;
     width: 700px;
     height: 445px;
+    padding-right: 5rem;
 }
 
 .row {
-display: flex;
-background: #f2f4fd;
-position: relative;
-justify-content: center;
-flex-direction: row-reverse;
-background-color: transparent;
+    display: flex;
+    background: #f2f4fd;
+    position: relative;
+    justify-content: center;
+    flex-direction: row-reverse;
+    background-color: transparent;
 }
 
 .cola {
@@ -40,7 +41,7 @@ h4 {
     font-weight: 500;
 }
 
-ul li{
+ul li {
     font-weight: 500;
 }
 
@@ -63,11 +64,11 @@ ul li{
     color: blue;
 }
 
-.difl{
+.difl {
     display: flex;
 }
 
-p{
+p {
     margin: 38px 0 40px;
     font-size: 16px;
     color: #7c87b2;
@@ -77,7 +78,7 @@ p{
     width: 100%;
     padding-left: 0px;
 }
-    
+
 .dibu {
     min-width: 101px;
     cursor: pointer;
@@ -90,7 +91,7 @@ a {
     align-items: center;
 }
 
-button{
+button {
     height: 20px;
     position: relative;
     transition: all .1s;
@@ -109,7 +110,36 @@ button{
     margin-bottom: 20px;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
     transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        display: grid;
+        justify-content: center;
+    }
+    .cola {
+        width: 100%;
+        padding-left: 12rem !important;
+    }
+    .imgcol {
+        padding-left: 12rem !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .row {
+        display: grid;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .cola {
+        width: 100%;
+        padding-left: 14rem !important;
+    }
+    .imgcol {
+        padding-left: 8rem;
+    }
 }

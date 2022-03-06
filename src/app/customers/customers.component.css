@@ -1,0 +1,53 @@
+#stwo {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#stwo .header {
+    width: 50%;
+}
+
+#stwo .ourCustomersImagesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 73%;
+}
+
+h3 {
+    display: block;
+    font-family: Obj2;
+    margin-left: -80px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.hashtagText {
+    font-size: 15px!important;
+    color: #002bdc!important;
+    letter-spacing: .02em!important;
+    line-height: 22px!important;
+    font-weight: 500!important;
+    margin-left: 0px !important;
+}
+
+h2 {
+    display: block;
+    font-weight: 700 !important;
+    font-family: Obj2;
+}
+
+.header {
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    margin: 0;
+    color: #131313;
+    line-height: 60px;
+}

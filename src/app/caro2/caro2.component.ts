@@ -21,7 +21,30 @@ export class Caro2Component {
     navigation: true,
     pagination: false,
     loop:true,
-    allowTouchMove: false
+    allowTouchMove: false,
+    breakpoints: {
+      320:{
+        slidesPerView: 1,
+        spaceBetween: 20,
+        centeredSlides: false,
+      },
+      480:{
+        slidesPerView: 1,
+        spaceBetween: 30,
+      },
+      685:{
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      1024:{
+        slidesPerView: 2,
+        spaceBetween: 30,
+      },
+      1440:{
+        slidesPerView: 2,
+        spaceBetween: 20,
+      }
+    }
   };
 
   public disabled: boolean = false;

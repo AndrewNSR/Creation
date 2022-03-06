@@ -24,6 +24,7 @@ import { Caro4Component } from './caro4/caro4.component';
 import { Caro5Component } from './caro5/caro5.component';
 import { Caro6Component } from './caro6/caro6.component';
 import { Caro7Component } from './caro7/caro7.component';
+import { CustomersComponent } from './customers/customers.component';
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -49,7 +50,9 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     Caro4Component,
     Caro5Component,
     Caro6Component,
-    Caro7Component
+    Caro7Component,
+    ServicesComponent,
+    CustomersComponent
   ],
   imports: [
     BrowserModule,
